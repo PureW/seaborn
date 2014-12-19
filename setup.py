@@ -54,10 +54,10 @@ def check_dependencies():
         import matplotlib
     except ImportError:
         install_requires.append('matplotlib')
-    try:
-        import pandas
-    except ImportError:
-        install_requires.append('pandas')
+#    try:
+#        import pandas
+#    except ImportError:
+#        install_requires.append('pandas')
 
     return install_requires
 
